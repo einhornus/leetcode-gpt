@@ -71,7 +71,7 @@ def main():
     openai.api_key = json.load(open("config.json", "r", encoding="utf-8"))["OPENAI_API_KEY"]
     run_fine_tuning()
 
-#ftjob-MENAzZjgif8II8tIFi8RJmFL
 
 if __name__ == "__main__":
-    main()
+    #main()
+    download_file_from_openai("file-DtxuNjPL3FLd8sGT3YDbjpvM", "data//loss.csv")
